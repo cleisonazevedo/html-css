@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medídas Absolutas
+            cm, mm, in, px, pt, pc
+            obs: in = polegada
+            
+            Medídas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente e = 1em
+            recomendado sempre usar = em ou px
+            */
+            font-size: 1em ;
+
+            /* tamanha das fonte lighter, normal, bold, bolder */
+        }
+
+        h1 {
+
+            /* shorthand font
+            ordem usada font-style > font-weight > font-size > font-family
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+       h2 {
+           font: bold 2em "Work Sans";
+       }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, temporibus! Facere pariatur repellat dolor laudantium consectetur similique nemo. Voluptatem, vitae. Vero illum quis dolorem quibusdam accusantium, voluptatibus sed tempore vitae?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sint ullam quia natus dolore vel, cum, ratione ea fugiat accusamus vero. Officia atque, ad totam impedit asperiores enim quae porro?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde harum magni corrupti laboriosam nesciunt? Quisquam at voluptas nisi possimus optio illo assumenda. Error, quo officia deserunt temporibus ratione nobis tempore.</p>
+    <h2>Subtítulo de exercício</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus repudiandae voluptatibus aperiam ea cum nesciunt asperiores laudantium esse vel quam, delectus, exercitationem, quo voluptates corporis praesentium quasi eius aliquam dolorem?</p>
+
+</body>
+</html>
